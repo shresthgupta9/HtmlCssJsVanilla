@@ -192,6 +192,11 @@ footer {
     .one {
         width: 95vw;
     }
+    
+    .one article img{
+        height: 40vw;
+        object-fit: cover;
+    }
 
     .one article h2 {
         font-size: 6vw;
