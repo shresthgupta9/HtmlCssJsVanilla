@@ -203,6 +203,7 @@ footer {
     }
 
     .one article p {
+        margin: 10px 0;
         font-size: 3vw;
     }
 
