@@ -181,6 +181,10 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    
+    li {
+        font-size: 1.1rem;
+    }
     .one article img{
         height: 40vw;
         object-fit: cover;
