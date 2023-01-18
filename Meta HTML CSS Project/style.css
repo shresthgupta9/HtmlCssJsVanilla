@@ -181,18 +181,6 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    nav {
-        width: 95vw;
-    }
-
-    .logo img {
-        width: 160px;
-    }
-
-    .one {
-        width: 95vw;
-    }
-    
     .one article img{
         height: 40vw;
         object-fit: cover;
@@ -208,7 +196,6 @@ footer {
     }
 
     .scndrow-container {
-        width: 95vw;
         grid-template-columns: auto;
         grid-row-gap: 10px;
     }
@@ -220,17 +207,5 @@ footer {
     .btmbox article h2 {
         font-size: 20px;
         hyphens: auto;
-    }
-
-    .img {
-        width: 95vw;
-    }
-
-    .img div {
-        width: 95vw;
-    }
-
-    .copy div {
-        width: 95vw;
     }
 }
