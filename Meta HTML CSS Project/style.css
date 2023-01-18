@@ -125,6 +125,7 @@ li:first-child a {
     height: 45px;
     display: flex;
     align-items: center;
+    margin: 15px 0;
 }
 
 .btmbox article p {
