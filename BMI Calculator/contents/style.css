@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #e7e9ec;
+}
+
+.boxmain {
+  width: 65vw;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+header h1 {
+  padding-top: 25px;
+  font-size: 50px;
+  background-color: white;
+}
+
+.container {
+  width: 80%;
+  text-align: center;
+  background-color: white;
+}
+
+.box {
+  margin: 20px 0;
+  background-color: white;
+}
+
+button {
+  padding: 8px;
+  border-radius: 4px;
+  color: white;
+  background-color: rgb(9, 151, 151);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+}
+
+#ans {
+  margin: 25px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  header h1 {
+    padding-top: 40px;
+    font-size: 25px;
+  }
+
+  .boxmain {
+    width: 90vw;
+  }
+}
